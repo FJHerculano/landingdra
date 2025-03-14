@@ -396,6 +396,21 @@ body{
     margin-top: 160px;;
 }
 
+.title-sixSection-first{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.subtitle-sixSection-size{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.text-sixSection-size{
+    font-weight: 400;
+    font-size: 20px;
+}
+
 .lista-servico li {
     position: relative;
     padding-left: 20px;
