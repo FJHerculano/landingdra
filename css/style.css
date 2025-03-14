@@ -172,7 +172,7 @@ body{
 
     .custom-size-card-first-p{
         font-size: 28px!important;
-        font-weight: 700;
+        font-weight: 700!important;
     }
 
     .custom-size-card-first-img{
