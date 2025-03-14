@@ -32,7 +32,7 @@ body{
 
 .custom-size-menu{
     font-weight: 400; /* Peso da fonte */
-    font-size: 20px; /* Tamanho da fonte */
+    font-size: 16px; /* Tamanho da fonte */
 }
 
 .navbar-custom-padding{
@@ -49,10 +49,6 @@ body{
     margin-inline: 40px;
 }
 
-.custom-size-menu{
-    font-weight: 400; /* Peso da fonte */
-    font-size: 20px; /* Tamanho da fonte */
-}
 
 @media (max-width: 1242px) {
   
@@ -101,14 +97,14 @@ body{
     }
 
     .title-first{
-        font-weight: 600; /* Peso da fonte */
+        font-weight: 700; /* Peso da fonte */
         font-size: 48px; /* Tamanho da fonte */
         line-height: 64px; /* Altura da linha */
     }
 
     .subtitle-first{
         font-weight: 400; /* Peso da fonte */
-        font-size: 24px; /* Tamanho da fonte */
+        font-size: 20px; /* Tamanho da fonte */
         line-height: 32px; /* Altura da linha */
     }
 
@@ -175,7 +171,8 @@ body{
     }
 
     .custom-size-card-first-p{
-        font-size: 32px!important;
+        font-size: 28px!important;
+        font-weight: 700;
     }
 
     .custom-size-card-first-img{
@@ -184,7 +181,7 @@ body{
     }
 
     .custom-size-card-first-span{
-        font-size: 24px!important;
+        font-size: 20px!important;
     }
 
 
@@ -229,19 +226,19 @@ body{
 
 .title-section-three{
     font-weight: 700; /* Peso da fonte */
-    font-size: 40px; /* Tamanho da fonte */
+    font-size: 32px; /* Tamanho da fonte */
     line-height: 48px; /* Altura da linha */
 }
 
 .subtitle-section-three{
     font-weight: 700; /* Peso da fonte */
-    font-size: 32px; /* Tamanho da fonte */
+    font-size: 24px; /* Tamanho da fonte */
     line-height: 40px; /* Altura da linha */
 }
 
 .text-section-three{
     font-weight: 400; /* Peso da fonte */
-    font-size: 24px; /* Tamanho da fonte */
+    font-size: 20px; /* Tamanho da fonte */
     line-height: 32px; /* Altura da linha */
 }
 
@@ -317,13 +314,13 @@ body{
 
 .title-section-four{
     font-weight: 700; /* Peso da fonte */
-    font-size: 32px; /* Tamanho da fonte */
+    font-size: 24px; /* Tamanho da fonte */
     line-height: 40px; /* Altura da linha */
 }
 
 .subtitle-section-four{
     font-weight: 400; /* Peso da fonte */
-    font-size: 24px; /* Tamanho da fonte */
+    font-size: 20px; /* Tamanho da fonte */
     line-height: 32px; /* Altura da linha */
 }
 
@@ -344,13 +341,13 @@ body{
 
     .title-first-five-section{
         font-weight: 700; /* Peso da fonte */
-        font-size: 40px; /* Tamanho da fonte */
+        font-size: 24px; /* Tamanho da fonte */
         line-height: 48px; /* Altura da linha */
     }
 
     .subtitle-first-five-section{
         font-weight: 400; /* Peso da fonte */
-        font-size: 24px; /* Tamanho da fonte */
+        font-size: 20px; /* Tamanho da fonte */
         line-height: 32px; /* Altura da linha */
     }
 
@@ -423,19 +420,19 @@ body{
 
 .title-first-seven-section{
     font-weight: 700; /* Peso da fonte */
-    font-size: 40px; /* Tamanho da fonte */
+    font-size: 32px; /* Tamanho da fonte */
     line-height: 48px; /* Altura da linha */
 }
 
 .title-card-seven-section{
     font-weight: 700; /* Peso da fonte */
-    font-size: 32px; /* Tamanho da fonte */
+    font-size: 24px; /* Tamanho da fonte */
     line-height: 40px; /* Altura da linha */
 }
 
 .text-card-seven-section{
     font-weight: 400; /* Peso da fonte */
-    font-size: 24px; /* Tamanho da fonte */
+    font-size: 20px; /* Tamanho da fonte */
     line-height: 32px; /* Altura da linha */
 }
 
@@ -475,6 +472,11 @@ body{
     margin-top: 180px;;
 }
 
+.title-section-eight{
+   font-size: 32px;
+   font-weight: 700;
+}
+
 
 
 @media (max-width: 560px) {
@@ -489,6 +491,11 @@ body{
 
 .section-nine{
     margin-block: 180px;;
+}
+
+.title-section-nine{
+    font-size: 32px;
+    font-weight: 700;
 }
 
 
@@ -523,7 +530,7 @@ body{
 
 .title-social-footer{
     font-weight: 700; /* Peso da fonte */
-    font-size: 32px; /* Tamanho da fonte */
+    font-size: 20px; /* Tamanho da fonte */
     line-height: 40px; /* Altura da linha */
 
 }
