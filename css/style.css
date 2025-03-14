@@ -1,0 +1,543 @@
+body{
+    background-image: url('../imgs/bg_total.jpg');
+    height: 1500px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif!important;
+}
+
+/* colors  */
+.gold-color{
+    color: #997C54;
+}
+
+.gold-color-secondary{
+    color: #EBD2B0
+}
+
+.gray-color{
+    color:#F7F4EF33;
+}
+
+/* ============================== Navbar ======================================= */
+/* Personalizar a cor do ícone hamburguer */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23997C54' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+/* Remover a borda do botão hamburguer */
+.navbar-toggler {
+    border: none !important;
+}
+
+.custom-size-menu{
+    font-weight: 400; /* Peso da fonte */
+    font-size: 20px; /* Tamanho da fonte */
+}
+
+.navbar-custom-padding{
+    padding-inline: 176px;
+    padding-block: 16px;
+}
+
+.logo-custom-size{
+    width: 235px; 
+    height: 50px;
+}
+
+.menu-custom-space{
+    margin-inline: 40px;
+}
+
+.custom-size-menu{
+    font-weight: 400; /* Peso da fonte */
+    font-size: 20px; /* Tamanho da fonte */
+}
+
+@media (max-width: 1242px) {
+  
+    .navbar-custom-padding{
+        padding-inline: 11px;
+    }
+
+}
+
+
+@media (max-width: 1050px) {
+    
+    .navbar-custom-padding{
+        padding-inline: 11px;
+    }
+
+    .menu-custom-space{
+        margin-inline: 20px;
+    }
+  
+}
+
+@media (max-width: 991px) {
+  
+    .logo-custom-size{
+        width: 180px; 
+        height: 50px;
+    }
+
+    .navbar-custom-padding{
+        padding-inline: 16px;
+    }
+
+}
+
+/* ============================== Navbar finish ======================================= */
+
+
+/* ==============================  Section one ======================================= */
+
+    /* background */
+    .section-one{
+        background-image: url('../imgs/BG.png');
+        background-size: cover; /* Adiciona esta linha para cobrir toda a largura */    
+        background-repeat: no-repeat; /* Evita repetição da imagem */
+    }
+
+    .title-first{
+        font-weight: 600; /* Peso da fonte */
+        font-size: 48px; /* Tamanho da fonte */
+        line-height: 64px; /* Altura da linha */
+    }
+
+    .subtitle-first{
+        font-weight: 400; /* Peso da fonte */
+        font-size: 24px; /* Tamanho da fonte */
+        line-height: 32px; /* Altura da linha */
+    }
+
+    .btn-dourado {
+        background: linear-gradient(45deg, #DFB57B, #ffddae, #F6C784);
+        color: black;
+        font-weight: 500;
+        font-size: 20px; 
+        line-height: 24px; /* Altura da linha */
+        display: inline-block;
+
+        padding-block:20px ;
+        padding-inline:40px ;
+
+        border: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: 0.3s;
+        text-decoration: none;
+
+    }
+
+    .btn-dourado:hover {
+        background: linear-gradient(45deg, #cdaa7d, #ffec8b, #cdaa7d);
+        color: black;
+    }
+
+
+    @media (max-width: 520px) {
+    
+            
+        .title-first{
+            font-weight: 600; /* Peso da fonte */
+            font-size: 32px; /* Tamanho da fonte */
+            line-height: 40px; /* Altura da linha */
+        }
+
+        .subtitle-first{
+            font-weight: 700; /* Peso da fonte */
+            font-size: 20px; /* Tamanho da fonte */
+            line-height: 32px; /* Altura da linha */
+        }
+
+
+    }
+
+/* ==============================  Section fnish ======================================= */
+
+/* ==============================  Section two ======================================= */
+
+    .section-two{
+        margin-top: 100px;
+    }
+
+    .custom-size-card-first{
+        width: 627px;
+        height: auto;
+        padding: 32px;
+        margin-block: 30px;
+        margin-inline: 10px;
+
+        border: 1px solid gray ;
+
+    }
+
+    .custom-size-card-first-p{
+        font-size: 32px!important;
+    }
+
+    .custom-size-card-first-img{
+        width: 38px;
+        height: 48px;
+    }
+
+    .custom-size-card-first-span{
+        font-size: 24px!important;
+    }
+
+
+    @media (max-width: 1399px) {
+    
+        .custom-size-card-first,p{
+            font-size: 24px;
+        }
+
+        .custom-size-card-first,span{
+            font-size: 20px;
+        }
+
+    }
+
+    @media (max-width: 573px) {
+    
+        .section-two{
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        .custom-size-card-first,p{
+            font-size: 24px;
+        }
+
+        .custom-size-card-first,span{
+            font-size: 20px;
+        }
+
+
+
+    }
+
+/* ==============================  Section two finish ======================================= */
+
+/* ==============================  Section three ======================================= */
+
+.section-three{
+    margin-top: 160px;
+}
+
+.title-section-three{
+    font-weight: 700; /* Peso da fonte */
+    font-size: 40px; /* Tamanho da fonte */
+    line-height: 48px; /* Altura da linha */
+}
+
+.subtitle-section-three{
+    font-weight: 700; /* Peso da fonte */
+    font-size: 32px; /* Tamanho da fonte */
+    line-height: 40px; /* Altura da linha */
+}
+
+.text-section-three{
+    font-weight: 400; /* Peso da fonte */
+    font-size: 24px; /* Tamanho da fonte */
+    line-height: 32px; /* Altura da linha */
+}
+
+.lista li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.lista li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #E6D6B4;
+    font-size: 20px;
+}
+
+.dra2-style{
+    display: block;
+    width: 634px;
+    height: 478px;
+}
+
+.space-btn-section-three{
+    margin-top: 75px;
+}
+
+
+@media (max-width: 1400px) {
+    
+    .title-section-three{
+        font-weight: 700; /* Peso da fonte */
+        font-size: 30px; /* Tamanho da fonte */
+        line-height: 48px; /* Altura da linha */
+    }
+
+    .subtitle-section-three{
+        font-weight: 700; /* Peso da fonte */
+        font-size: 24px; /* Tamanho da fonte */
+        line-height: 40px; /* Altura da linha */
+    }
+
+    .text-section-three{
+        font-weight: 400; /* Peso da fonte */
+        font-size: 18px; /* Tamanho da fonte */
+        line-height: 32px; /* Altura da linha */
+    }
+}
+
+/* ==============================  Section three finish ======================================= */
+
+
+/* ==============================  Section four  ======================================= */
+
+
+/* backgrounds */
+.section-four{
+    margin-top: 160px;
+
+    background-image: url('../imgs/dra3.png');
+    background-size: cover; /* Adiciona esta linha para cobrir toda a largura */    
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-position: right; /* Padrão: foca a metade direita */
+}
+
+/* padding section 4 */
+.custom-padding-section-four {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+
+.title-section-four{
+    font-weight: 700; /* Peso da fonte */
+    font-size: 32px; /* Tamanho da fonte */
+    line-height: 40px; /* Altura da linha */
+}
+
+.subtitle-section-four{
+    font-weight: 400; /* Peso da fonte */
+    font-size: 24px; /* Tamanho da fonte */
+    line-height: 32px; /* Altura da linha */
+}
+
+/* ==============================  Section four finish ======================================= */
+
+
+/* ==============================  Section five  ======================================= */
+
+
+    .section-five{
+        padding: 40px;
+        margin-top: 90px;;
+        background-image: url('../imgs/BG.png');
+        background-size: cover; /* Adiciona esta linha para cobrir toda a largura */    
+        background-repeat: no-repeat; /* Evita repetição da imagem */
+
+    }
+
+    .title-first-five-section{
+        font-weight: 700; /* Peso da fonte */
+        font-size: 40px; /* Tamanho da fonte */
+        line-height: 48px; /* Altura da linha */
+    }
+
+    .subtitle-first-five-section{
+        font-weight: 400; /* Peso da fonte */
+        font-size: 24px; /* Tamanho da fonte */
+        line-height: 32px; /* Altura da linha */
+    }
+
+    .dra4-style{
+        display: block;
+        width: 768px;
+    }
+    
+    @media (max-width: 520px) {
+    
+        .section-five{
+            margin-top: 0px;;
+        }
+
+        .title-first-five-section{
+            font-weight: 700; /* Peso da fonte */
+            font-size: 32px; /* Tamanho da fonte */
+            line-height: 40px; /* Altura da linha */
+        }
+
+        .subtitle-first-five-section{
+            font-weight: 400; /* Peso da fonte */
+            font-size: 20px; /* Tamanho da fonte */
+            line-height: 32px; /* Altura da linha */
+        }
+
+
+    }
+
+
+
+/* ==============================  Section five finish ======================================= */
+
+
+/* ==============================  Section six  ======================================= */
+
+
+.section-six{
+    margin-top: 160px;;
+}
+
+.lista-servico li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.lista-servico li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #E6D6B4;
+    font-size: 20px;
+}
+
+@media (max-width: 560px) {
+    .section-five{
+        margin-top: 0px;;
+    }
+}
+
+/* ==============================  Section six finish ======================================= */
+
+/* ==============================  Section seven  ======================================= */
+
+
+.section-seven{
+    margin-top: 180px;;
+}
+
+.title-first-seven-section{
+    font-weight: 700; /* Peso da fonte */
+    font-size: 40px; /* Tamanho da fonte */
+    line-height: 48px; /* Altura da linha */
+}
+
+.title-card-seven-section{
+    font-weight: 700; /* Peso da fonte */
+    font-size: 32px; /* Tamanho da fonte */
+    line-height: 40px; /* Altura da linha */
+}
+
+.text-card-seven-section{
+    font-weight: 400; /* Peso da fonte */
+    font-size: 24px; /* Tamanho da fonte */
+    line-height: 32px; /* Altura da linha */
+}
+
+@media (max-width: 520px) {
+
+    .section-seven{
+        margin-top: 0px;;
+    }
+
+    .title-first-seven-section{
+        font-weight: 700; /* Peso da fonte */
+        font-size: 32px; /* Tamanho da fonte */
+        line-height: 40px; /* Altura da linha */
+    }
+
+    .title-card-seven-section{
+        font-weight: 700; /* Peso da fonte */
+        font-size: 24px; /* Tamanho da fonte */
+        line-height: 32px; /* Altura da linha */
+    }
+    
+    .text-card-seven-section{
+        font-weight: 400; /* Peso da fonte */
+        font-size: 20px; /* Tamanho da fonte */
+        line-height: 32px; /* Altura da linha */
+    }
+    
+}
+
+/* ==============================  Section seven finish ======================================= */
+
+
+/* ==============================  Section eight  ======================================= */
+
+
+.section-eight{
+    margin-top: 180px;;
+}
+
+
+
+@media (max-width: 560px) {
+   
+}
+
+/* ==============================  Section eight finish ======================================= */
+
+
+/* ==============================  Section nine  ======================================= */
+
+
+.section-nine{
+    margin-block: 180px;;
+}
+
+
+
+@media (max-width: 560px) {
+   
+}
+
+/* ==============================  Section nine finish ======================================= */
+
+
+
+/* ==============================  Section footer  ======================================= */
+
+
+.section-footer{
+    margin-block: 180px;;
+}
+
+.logo-footer{
+    width: 235px;
+    height: 50;
+}
+
+.copy-footer{
+    font-size: 20px;
+} 
+
+.text-col-three-footer{
+    font-size: 20px;
+}
+
+.title-social-footer{
+    font-weight: 700; /* Peso da fonte */
+    font-size: 32px; /* Tamanho da fonte */
+    line-height: 40px; /* Altura da linha */
+
+}
+
+.subtitle-social-footer{
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 560px) {
+   
+}
+
+/* ==============================  Section footer finish ======================================= */
+
+
